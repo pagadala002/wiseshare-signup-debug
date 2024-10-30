@@ -1,0 +1,53 @@
+/* src/components/SignUpForm.css */
+
+.signup-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+}
+
+.signup-container h2 {
+    color: #2b2e83;
+}
+
+.signup-container p {
+    color: #606770;
+    font-size: 14px;
+}
+
+.signup-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signup-container label {
+    font-size: 14px;
+    color: #606770;
+}
+
+.signup-container input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.signup-container button {
+    background-color: #2b2e83;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signup-container a {
+    color: #2b2e83;
+    text-decoration: none;
+}
