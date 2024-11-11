@@ -1,53 +1,202 @@
-/* src/components/SignUpForm.css */
+/* General Layout */
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 
+/* Header Styling */
+.header {
+    background-color: #4b0082;
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 60px;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.header .home-icon {
+    margin-left: 8px;
+    font-size: 24px;
+}
+
+.header .search-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    gap: 2px;
+}
+
+.header .search-bar {
+    padding: 10px 15px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    width: 280px;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header .search-button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: #4b0082;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.header .icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 200px;
+    min-height: 100vh;
+    background-color: #4b0082;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 60px;
+}
+
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.sidebar-nav li {
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.sidebar-nav li:hover {
+    text-decoration: underline;
+}
+
+/* Content Area */
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the Sign-Up Form */
 .signup-container {
     background-color: #ffffff;
-    padding: 30px;
+    padding: 30px 40px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     width: 100%;
     max-width: 400px;
     text-align: left;
+    margin: 20px auto;
 }
 
 .signup-container h2 {
-    color: #2b2e83;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 .signup-container p {
     color: #606770;
     font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .signup-container form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 
 .signup-container label {
     font-size: 14px;
     color: #606770;
+    font-weight: 500;
 }
 
 .signup-container input {
-    padding: 8px;
+    width: 100%;
+    padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 6px;
     font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
 }
 
-.signup-container button {
-    background-color: #2b2e83;
+.signup-container input[type="tel"] {
+    display: flex;
+    align-items: center;
+    color: #606770;
+}
+
+/* Sign Up Button */
+.signup-button {
+    background-color: #1a73e8;
     color: white;
-    padding: 10px;
+    padding: 12px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
 }
 
+/* Link Style */
 .signup-container a {
-    color: #2b2e83;
+    color: #1a73e8;
     text-decoration: none;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signup-container .required {
+    color: red;
+    margin-left: 4px;
+}
+
+/* Ensure consistency in height for all inputs */
+.signup-container input,
+.signup-button {
+    height: 44px;
+    line-height: 1.5;
 }

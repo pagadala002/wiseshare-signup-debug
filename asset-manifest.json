@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Senior-design/static/css/main.2b4ee66d.css",
+    "main.js": "/Senior-design/static/js/main.c221c74b.js",
+    "index.html": "/Senior-design/index.html",
+    "main.2b4ee66d.css.map": "/Senior-design/static/css/main.2b4ee66d.css.map",
+    "main.c221c74b.js.map": "/Senior-design/static/js/main.c221c74b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b4ee66d.css",
+    "static/js/main.c221c74b.js"
+  ]
+}
