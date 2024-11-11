@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wiseshare-signup-debug/static/css/main.98bf53a7.chunk.css",
+    "main.js": "/wiseshare-signup-debug/static/js/main.8bcda32c.chunk.js",
+    "main.js.map": "/wiseshare-signup-debug/static/js/main.8bcda32c.chunk.js.map",
+    "runtime-main.js": "/wiseshare-signup-debug/static/js/runtime-main.db7487e2.js",
+    "runtime-main.js.map": "/wiseshare-signup-debug/static/js/runtime-main.db7487e2.js.map",
+    "static/js/2.a3a4c6ba.chunk.js": "/wiseshare-signup-debug/static/js/2.a3a4c6ba.chunk.js",
+    "static/js/2.a3a4c6ba.chunk.js.map": "/wiseshare-signup-debug/static/js/2.a3a4c6ba.chunk.js.map",
+    "index.html": "/wiseshare-signup-debug/index.html",
+    "precache-manifest.b12e75a51c0ec648f01fc05994dac996.js": "/wiseshare-signup-debug/precache-manifest.b12e75a51c0ec648f01fc05994dac996.js",
+    "service-worker.js": "/wiseshare-signup-debug/service-worker.js",
+    "static/css/main.98bf53a7.chunk.css.map": "/wiseshare-signup-debug/static/css/main.98bf53a7.chunk.css.map",
+    "static/js/2.a3a4c6ba.chunk.js.LICENSE.txt": "/wiseshare-signup-debug/static/js/2.a3a4c6ba.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db7487e2.js",
+    "static/js/2.a3a4c6ba.chunk.js",
+    "static/css/main.98bf53a7.chunk.css",
+    "static/js/main.8bcda32c.chunk.js"
+  ]
+}
