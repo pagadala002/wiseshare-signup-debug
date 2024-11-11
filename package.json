@@ -1,4 +1,7 @@
 {
+  "homepage": "https://github.com/pagadala002/Project-Senior.git"
+}
+{
   "name": "wiseshare-signup",
   "version": "1.0.0",
   "description": "",
@@ -8,6 +11,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
   },
   "dependencies": {
     "react": "^18.2.0",
